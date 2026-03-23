@@ -1,0 +1,79 @@
+:root {
+  --bg: #f6f2e9;
+  --bg-elevated: #fffdf8;
+  --bg-soft: #eae3d6;
+  --bg-strong: #123d36;
+  --bg-strong-2: #17342f;
+  --text: #181714;
+  --text-muted: #6f6a61;
+  --text-soft: #9b9488;
+  --line: #d4ccbd;
+  --line-strong: rgba(18, 61, 54, 0.18);
+  --primary: #123d36;
+  --primary-2: #1e574d;
+  --accent: #d4a64f;
+  --success: #2e8b57;
+  --warning: #d97a2b;
+  --danger: #c84c3a;
+  --info: #3f7cac;
+  --white: #fffefb;
+  --shadow-soft: 0 12px 36px rgba(24, 23, 20, 0.08);
+  --shadow-strong: 0 20px 48px rgba(24, 23, 20, 0.14);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-pill: 9999px;
+  --space-2xs: 2px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --font-display: "Teko", "Arial Narrow", sans-serif;
+  --font-body: "Noto Sans SC", "IBM Plex Sans", sans-serif;
+  --font-ui: "Noto Sans SC", "IBM Plex Sans", sans-serif;
+  --font-data: "IBM Plex Sans", "Noto Sans SC", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-24: 24px;
+  --fs-32: 32px;
+  --fs-40: 40px;
+  --fs-56: 56px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(212, 166, 79, 0.18), transparent 20%),
+    linear-gradient(180deg, #f8f4ec 0%, var(--bg) 100%);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: var(--fs-16);
+  line-height: 1.5;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}

@@ -1,0 +1,14 @@
+{
+  "target": "wdl",
+  "modelVersion": "wdl-v1",
+  "trainedAt": "2026-03-22T10:00:00Z",
+  "featureNames": [
+    "team_shots_on_target_avg_last_5",
+    "opp_shots_on_target_faced_avg_last_5",
+    "rest_days_delta",
+    "missing_starting_goalkeeper_flag",
+    "closing_odds_delta"
+  ],
+  "classLabels": ["Home Win", "Draw", "Away Win"],
+  "fallbackProbabilities": [0.52, 0.27, 0.21]
+}
